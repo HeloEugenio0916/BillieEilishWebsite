@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="billie.js" defer></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+
+    <title>Billie Eilish</title>
+</head>
+<body>
+    <!-- Logo -->
+    <div class="logo">
+        <h1>BILLIE EILISH</h1>
+    </div>
+
+    <!-- Navigation -->
+    <div class="nav-container">
+        <ul class="nav-links">
+            <li><a href="home.html">HOME</a></li>
+            <li><a href="music.html">MUSIC</a></li>
+            <li><a href="tour.html">TOUR</a></li>
+            <li><a href="love.html">LOVE</a></li>
+        </ul>
+        <!-- Icons -->
+        <div class="nav-icons">
+            <i class="fas fa-search"></i>
+            <i class="fas fa-euro-sign"></i>
+            <i class="fas fa-user"></i>
+            <i class="fas fa-shopping-cart"></i>
+        </div>
+    </div>
+
+    <!-- Home Image -->
+    <img class="HomeImage" src="bilie.webp" alt="Home Image">
+
+    <!-- Favorite Album Section -->
+    <div class="favAlbum">
+        <h2>Choose your favorite album</h2>
+    </div>
+
+    <div class="image-column">
+        <div class="image-card" onclick="redirectTo('music.html?album=wwafawdwg')">
+            <img src="https://i.pinimg.com/736x/8c/00/fe/8c00fe91f045fd4f9f7cc00820b8c1a2.jpg" alt="WWAFAWDWG?">
+            <h3>WWAFAWDWG?</h3>
+        </div>
+
+        <div class="image-card" onclick="redirectTo('music.html?album=happier-than-ever')">
+            <img src="https://i.pinimg.com/736x/21/66/16/2166166aea78d9df848b758781ee4ea9.jpg" alt="Happier Than Ever">
+            <h3>HAPPIER<br>THAN EVER</h3>
+        </div>
+        
+        <div class="image-card" onclick="redirectTo('music.html?album=hit-me-hard-and-soft')">
+            <img src="https://i.pinimg.com/736x/f8/2d/b2/f82db262debaa85023ff3adddf8f1fd9.jpg" alt="Hit Me Hard And Soft">
+            <h3>HIT ME HARD<br>AND SOFT</h3>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <div class="copyright">
+            © Billie Eilish UK
+        </div>
+        <div class="connect">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+        </div>
+    </div>
+</body>
+</html>
